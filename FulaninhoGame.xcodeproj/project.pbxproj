@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC6C009B2901640D00621E65 /* FulaninhoGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6C009A2901640D00621E65 /* FulaninhoGameApp.swift */; };
+		FC6C009D2901640D00621E65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6C009C2901640D00621E65 /* ContentView.swift */; };
+		FC6C009F2901640E00621E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6C009E2901640E00621E65 /* Assets.xcassets */; };
+		FC6C00A22901640E00621E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6C00A12901640E00621E65 /* Preview Assets.xcassets */; };
+		FC6C00A9290191DB00621E65 /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6C00A8290191DB00621E65 /* PopUp.swift */; };
+		FCBBDD2F2907FCBE002BA9B1 /* testApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBDD2E2907FCBE002BA9B1 /* testApple.swift */; };
+		FCBBDD322907FDC1002BA9B1 /* telaReal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBDD312907FDC1002BA9B1 /* telaReal.swift */; };
+		FCBBDD3429080580002BA9B1 /* PinchGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBDD3329080580002BA9B1 /* PinchGestureView.swift */; };
+		FCC313CE29088FEB006DB72B /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC313CD29088FEB006DB72B /* AudioManager.swift */; };
+		FCC313D029089356006DB72B /* Level5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC313CF29089356006DB72B /* Level5.swift */; };
+		FCC313D2290893BD006DB72B /* ForestAudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FCC313D1290893BD006DB72B /* ForestAudio.m4a */; };
+		FCED718F290AB69900D81778 /* VolumeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED718E290AB69900D81778 /* VolumeObserver.swift */; };
+		FCED7193290ACE6900D81778 /* GetVolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED7192290ACE6900D81778 /* GetVolumeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC6C00972901640D00621E65 /* FulaninhoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FulaninhoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6C009A2901640D00621E65 /* FulaninhoGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FulaninhoGameApp.swift; sourceTree = "<group>"; };
+		FC6C009C2901640D00621E65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC6C009E2901640E00621E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6C00A12901640E00621E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC6C00A8290191DB00621E65 /* PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		FCBBDD2E2907FCBE002BA9B1 /* testApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApple.swift; sourceTree = "<group>"; };
+		FCBBDD312907FDC1002BA9B1 /* telaReal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telaReal.swift; sourceTree = "<group>"; };
+		FCBBDD3329080580002BA9B1 /* PinchGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchGestureView.swift; sourceTree = "<group>"; };
+		FCC313CD29088FEB006DB72B /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		FCC313CF29089356006DB72B /* Level5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level5.swift; sourceTree = "<group>"; };
+		FCC313D1290893BD006DB72B /* ForestAudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ForestAudio.m4a; sourceTree = "<group>"; };
+		FCED718E290AB69900D81778 /* VolumeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeObserver.swift; sourceTree = "<group>"; };
+		FCED7192290ACE6900D81778 /* GetVolumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVolumeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6C00942901640D00621E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6C008E2901640D00621E65 = {
+			isa = PBXGroup;
+			children = (
+				FC6C00992901640D00621E65 /* FulaninhoGame */,
+				FC6C00982901640D00621E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6C00982901640D00621E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C00972901640D00621E65 /* FulaninhoGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6C00992901640D00621E65 /* FulaninhoGame */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C009A2901640D00621E65 /* FulaninhoGameApp.swift */,
+				FC6C009C2901640D00621E65 /* ContentView.swift */,
+				FC6C00A8290191DB00621E65 /* PopUp.swift */,
+				FCBBDD2E2907FCBE002BA9B1 /* testApple.swift */,
+				FCBBDD312907FDC1002BA9B1 /* telaReal.swift */,
+				FCBBDD3329080580002BA9B1 /* PinchGestureView.swift */,
+				FCC313CD29088FEB006DB72B /* AudioManager.swift */,
+				FCC313CF29089356006DB72B /* Level5.swift */,
+				FCED718E290AB69900D81778 /* VolumeObserver.swift */,
+				FCED7192290ACE6900D81778 /* GetVolumeViewController.swift */,
+				FC6C009E2901640E00621E65 /* Assets.xcassets */,
+				FCC313D1290893BD006DB72B /* ForestAudio.m4a */,
+				FC6C00A02901640E00621E65 /* Preview Content */,
+			);
+			path = FulaninhoGame;
+			sourceTree = "<group>";
+		};
+		FC6C00A02901640E00621E65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C00A12901640E00621E65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6C00962901640D00621E65 /* FulaninhoGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6C00A52901640E00621E65 /* Build configuration list for PBXNativeTarget "FulaninhoGame" */;
+			buildPhases = (
+				FC6C00932901640D00621E65 /* Sources */,
+				FC6C00942901640D00621E65 /* Frameworks */,
+				FC6C00952901640D00621E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FulaninhoGame;
+			productName = FulaninhoGame;
+			productReference = FC6C00972901640D00621E65 /* FulaninhoGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6C008F2901640D00621E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FC6C00962901640D00621E65 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FC6C00922901640D00621E65 /* Build configuration list for PBXProject "FulaninhoGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6C008E2901640D00621E65;
+			productRefGroup = FC6C00982901640D00621E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6C00962901640D00621E65 /* FulaninhoGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6C00952901640D00621E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC313D2290893BD006DB72B /* ForestAudio.m4a in Resources */,
+				FC6C00A22901640E00621E65 /* Preview Assets.xcassets in Resources */,
+				FC6C009F2901640E00621E65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6C00932901640D00621E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBBDD2F2907FCBE002BA9B1 /* testApple.swift in Sources */,
+				FCC313CE29088FEB006DB72B /* AudioManager.swift in Sources */,
+				FC6C009D2901640D00621E65 /* ContentView.swift in Sources */,
+				FC6C00A9290191DB00621E65 /* PopUp.swift in Sources */,
+				FCC313D029089356006DB72B /* Level5.swift in Sources */,
+				FCED718F290AB69900D81778 /* VolumeObserver.swift in Sources */,
+				FCBBDD3429080580002BA9B1 /* PinchGestureView.swift in Sources */,
+				FCED7193290ACE6900D81778 /* GetVolumeViewController.swift in Sources */,
+				FCBBDD322907FDC1002BA9B1 /* telaReal.swift in Sources */,
+				FC6C009B2901640D00621E65 /* FulaninhoGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC6C00A32901640E00621E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC6C00A42901640E00621E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6C00A62901640E00621E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FulaninhoGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.FulaninhoGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6C00A72901640E00621E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FulaninhoGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.FulaninhoGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6C00922901640D00621E65 /* Build configuration list for PBXProject "FulaninhoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6C00A32901640E00621E65 /* Debug */,
+				FC6C00A42901640E00621E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6C00A52901640E00621E65 /* Build configuration list for PBXNativeTarget "FulaninhoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6C00A62901640E00621E65 /* Debug */,
+				FC6C00A72901640E00621E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6C008F2901640D00621E65 /* Project object */;
+}
